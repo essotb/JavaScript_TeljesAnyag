@@ -748,7 +748,7 @@
             let tarolo = {
                 "auto": {
                     "belter": {
-                        "kesztyu tarto": "terkep",
+                        "kesztyu tarto": "zsebkendo",
                         "utasUles": "ongyujto"
                     },
                     "kulter": {
