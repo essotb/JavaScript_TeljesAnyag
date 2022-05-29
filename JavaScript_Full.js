@@ -749,7 +749,7 @@
                 "auto": {
                     "belter": {
                         "kesztyu tarto": "zsebkendo",
-                        "utasUles": "ongyujto"
+                        "utasUles": "cigi"
                     },
                     "kulter": {
                         "csomagtarto": "takaro"
