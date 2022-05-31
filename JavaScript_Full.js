@@ -805,7 +805,7 @@
             console.log(whileArray);
             
 
-        //B.) Iterálás for ciklussal
+        // B.) Iterálás for ciklussal
             let forArray = [];
 
             for (let i = 0; i < 5; i++){
@@ -828,3 +828,14 @@
                     visszaFor.push(i);
                 }
                 console.log(visszaFor);
+                
+
+        // C.) Végigiterálás egy tömbön For ciklussal
+            let tombonForral = [2, 3, 4, 5, 6, 8, 9, 3, 12];
+            let tombonForralOsszeg = 0;
+                        
+            for (let i = 0; i < tombonForral.length; i++){
+                tombonForralOsszeg += tombonForral[i];
+            }
+            
+            console.log(tombonForralOsszeg);
