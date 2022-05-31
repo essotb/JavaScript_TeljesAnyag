@@ -764,3 +764,67 @@
             
 
         // K.) Hozzáférés többrétű Tömbök elemeihez
+            let myPlants = [
+                {
+                    type: "flowers",
+                    list: [
+                        "rose",
+                        "tulip",
+                        "dandelion"
+                    ]
+                },
+                {
+                    type: "trees",
+                    list: [
+                        "fir",
+                        "pine",
+                        "birch"
+                    ]
+                }
+            ];
+            
+            let secondTree = myPlants[1].list[1];
+            console.log(secondTree);
+            
+
+
+
+    // 9.) Iterálások ciklusokkal
+
+    
+            // A ciklusokkal ugyanazt a kódot lefutatthatjuk egymás után többször is.
+
+        // A.) Iterálás While ciklussal
+            let whileArray = [];
+            let i = 0;
+            while (i < 5) {
+                whileArray.push(i);
+                i++;
+            }
+
+            console.log(whileArray);
+            
+
+        //B.) Iterálás for ciklussal
+            let forArray = [];
+
+            for (let i = 0; i < 5; i++){
+                forArray.push(i);
+            };
+            console.log(forArray);
+            
+            //B.)1.) - Páratlan számok iterálása for ciklussal
+                let parosFor = [];
+
+                for (let i = 0; i < 20; i += 2) {
+                    parosFor.push(i);
+                }
+                console.log(parosFor);
+                
+            //B.)2.) - Visszaszámlálás For ciklussal
+                let visszaFor = [];
+                            
+                for (let i = 20; i > 0; i -= 2) {
+                    visszaFor.push(i);
+                }
+                console.log(visszaFor);
