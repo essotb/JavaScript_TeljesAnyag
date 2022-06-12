@@ -839,3 +839,33 @@
             }
             
             console.log(tombonForralOsszeg);
+            
+
+        // D.) Lépcsőzetes For ciklusok
+            function multiplyAll(arr) {
+                let product = 1;
+            
+                for (let i = 0; i < arr.length; i++){
+                    for (let j = 0; j < arr[i].length; j++){
+                        product *= arr[i][j];
+                    }
+                }
+            
+                return product;
+            }
+
+            let product = multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);
+
+            console.log(product);
+
+
+        // E.) Iterálás Do.. While ciklussal - A Do while ciklus EGYSZER MINDENKÉPP lefut, és csak utána ellenőrzi a feltételt! Szemben a While ciklussal
+            let doWhileArr = [];
+            let i = 10;
+                    
+             do {
+                doWhileArr.push(i);
+                i++
+            } while (i < 5)
+            
+            console.log(i, doWhileArr);
